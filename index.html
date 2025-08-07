@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEALNET</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+    @font-face {
+        font-family: "Manrope";
+        src: url("font/Manrope-Light.ttf") format("truetype");
+    }
+
+    .navbar-nav {
+        gap: 46px;
+    }
+
+    span {
+    background: linear-gradient(to right, #A7E2FF, #0095DE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-decoration: none;
+    border-radius: 12px;
+    display: inline-block;
+    font-weight: bold;
+    }
+
+
+    .primary-btn {
+        background: linear-gradient(to right, #A7E2FF, #0095DE);
+        text-decoration: none;
+        padding: 16px 24px;
+        border-radius: 12px;
+        color: white;
+        font-weight: bold;
+    }
+
+    footer {
+        background-color: #0095DE;
+        padding: 40px 0;
+        color: white;
+        text-align: center;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    </style>
+</head>
+<body>
+ 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+        
+        <!-- Logo Left -->
+        <a class="navbar-brand" href="#">
+        <img src="img/logo.png" alt="HealNet" style="max-height: 40px;">
+        </a>
+
+        <!-- Toggle Button (Mobile) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="navbar-toggler-icon"></div>
+        </button>
+
+        <!-- Navbar Content -->
+        <div class="collapse navbar-collapse justify-content-between" id="mainNavbar">
+        
+        <!-- Center Menu -->
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Find Doctors</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
+        </ul>
+
+        <!-- Button Right -->
+        <div class="d-flex">
+            <a style="background: linear-gradient(to right, #A7E2FF, #0095DE);text-decoration: none; padding: 16px 24px; border-radius: 12px;color: white;" href="#"><b>Join Us</b></a>
+        </div>
+        </div>
+    </div>
+    </nav>
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-sm-12 col-lg-6">
+            <h1 style="font-size: 46px;font-weight: 700;width: 90%;padding-top: 100px;">Your <span style="color:#00A4F4 ;">trusted partner</span> in digital healthcare.</h1>
+            <br>
+            <p style="font-size: 16px;width: 95%;text-align: justify;">
+                <span style="color:#00A4F4 ;">Empowering Your Health at Every Step.</span> Experience personalized medical care from the comfort of your home. Connect with <span style="color:#00A4F4 ;">certified doctors,</span>  or manage prescriptions, and schedule appointments with ease. Ready to take control of your health? <span style="color:#00A4F4 ;"> Get Started</span> or Book an Appointment today.
+            </p>
+            <br>
+            <a style="background: linear-gradient(to right, #A7E2FF, #0095DE);text-decoration: none; padding: 16px 24px; border-radius: 12px;color: white;" href="#"><b>Book an appointment</b><i class="fa-solid fa-greater-than" style="padding-left: 20px;"></i></a>
+            <p style="font-family: Manrope; font-weight: 600;font-size: 15px; color: #B0B0B0;padding-top: 50px;">Trusted by millions across the globe:</p>
+            <div style="font-size: 25px;gap: 50px;display: flex;color: #333; justify-content: left;">
+                <a href="#"><i class="fa-brands fa-amazon"></i></a>
+                <a href="#"><i class="fa-brands fa-apple"></i></a>
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+                <a href="#"><i class="fa-brands fa-spotify"></i></a>
+                <a href="#"><i class="fa-brands fa-slack"></i></a>
+            </div>
+            <br>
+            </div>
+            
+            <div class="col-sm-12 col-lg-6 text-center">
+            <div style="background: linear-gradient(to bottom, #A7E2FF, #0095DE);border-radius: 300px 300px 50px 50px; width: 80%;position: relative;z-index: -999;">
+
+                <div style="width: 240px; height: 140px; border-radius: 10px; background-color: white;border: 1.5px solid #95DDFF;position: absolute; top:200px ; left: 300px;">
+                    <div style="position: relative;padding: 15px;">
+                        <img src="img/group1.png" alt="" style="position: absolute;width: 30px;border-radius: 50%;left: 30px;">
+                        <img src="img/group2.png" alt="" style="position: absolute;width: 30px;border-radius: 50%;left: 50px;">
+                        <img src="img/group3.png" alt="" style="position: absolute;width: 30px;border-radius: 50%;left: 75px;">
+                        <img src="img/group4.png" alt="" style="position: absolute;width: 30px;border-radius: 50%;left: 100px;">
+
+                        <div style="position: relative;text-align: right;padding-right: 40px;">2400+</div>
+                        <br>
+                        <p>Happy Customers</p>
+                        <div style="display: flex; justify-content: center;color: #E9EF20;">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <p style="color: gray;">(4.7 Rating )</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="width: 300px; height: auto; border-radius: 10px; background-color: white;border: 1.5px solid #95DDFF;position: absolute; top:330px ;left: -100px;color:#0069AB ;display: flex;justify-content: center;gap: 15px; padding: 15px;padding-bottom: 0px;">
+                    <i class="fa-solid fa-star"></i>
+                    <p>Easy Appointment Booking</p>
+                </div>
+
+                <i class="fa-solid fa-quote-left" style="font-size: 100px;color: #0095DE;position: absolute;top: 322px;left: 222px;z-index: 111;"></i>
+
+                <div style="width: 300px; height: 85px; border-radius: 10px; background-color: white;border: 1.5px solid #95DDFF;position: absolute; top:380px ;left: 200px;color:#0069AB ;font-size: 14px;padding-top: 20px;">
+                    <p>Lorem ipsum dolor sit amet, ligula ego. consectetuer adipiscing elit doloras. </p>
+                </div>
+                <img src="img/heroimg.png" alt="Hero Img" class="img-fluid" >
+            </div>
+            </div>
+        </div>
+
+       <div class="row" style="margin: 100px 0px;">
+            <div class="col-12">
+                <div style="width: 100%; border-radius: 30px; border: 2px solid #95DDFF; padding: 30px;box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+">
+                <p style="font-size: 33px; font-family: Arial, Helvetica, sans-serif; font-weight: 700; color: #0069AB;">
+                    Easily book an appointment in 3 simple steps.
+                </p>
+
+                <div class="row" style="padding: 15px;">
+                    <!-- Email -->
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <i class="fa-solid fa-envelope"></i>
+                        <label for="email">Email Address</label>
+                    </div>
+                    <input type="email" id="email" placeholder="Enter Your Email Address" class="form-control">
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <i class="fa-solid fa-phone"></i>
+                        <label for="phone">Contact Number</label>
+                    </div>
+                    <input type="tel" id="phone" placeholder="Enter Your Contact Number" class="form-control">
+                    </div>
+
+                    <!-- Date -->
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <label for="date">Date of Appointment</label>
+                    </div>
+                    <input type="date" id="date" class="form-control">
+                    </div>
+                    <button style="background-color: #00A4F4; padding: 5px; color: white; border: none;font-size: 25px;border-radius: 100px;margin-top:25px; font-family: Arial, Helvetica, sans-serif; letter-spacing: 5px;">Book Now</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="container" style="margin: 100px 0px;">
+                <br>
+                <br>
+                <h1 style="font-size: 40px; text-align: center;font-weight: 700; font-family: Arial, Helvetica, sans-serif;">Top <span style="color:#00A4F4 ;"> Services</span> we offer</h1>
+                <br>
+                <p style="font-size: 16px;text-align: center; font-weight: 600;line-height: 24px;color: #B0B0B0;">In today’s fast-paced world, your health deserves the utmost attention and convenience. That’s why HealNet offers a suite of integrated services designed to cater to your healthcare needs digitally</p>
+                <br>
+            </div>
+
+            
+            <div class="container" style="margin: 100px 0px;">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-7">
+                        <div style="border: 2px solid #0095DE; background-color: white;border-radius: 25px;padding: 25px;margin: 15px;height: 250px;box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+">
+                            <i class="fa-solid fa-video" style="font-size: 40px;color: #0095DE;background-color: #EFF9FF;border-radius: 10px;padding:8px;"></i>
+                            <h2 style="color: #0095DE;">Online Consultations</h2>
+                            <p>Consult with top doctors across various specialties via video or chat communication. It’s totally secure, private, and convenient. Choose the best time for an in-person visit with our easy-to-use scheduling system, or proceed with our online consultation.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-5">
+                        <div style="border: 2px solid #0095DE; background-color: white;border-radius: 25px;padding: 25px;margin: 15px;height: 250px;box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+">
+                            <i class="fa-solid fa-calendar-days" style="font-size: 40px;color: #0095DE;background-color: #EFF9FF;border-radius: 10px;padding:8px;"></i>
+                            <h2 style="color: #0095DE;">Booking Appointments</h2>
+                            <p>Choose the best time for an in-person visit with our easy-to-use scheduling system, or proceed with our online consultation features.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div style="border: 2px solid #0095DE; background-color: white;border-radius: 25px;padding:25px;margin: 15px;height: 250px;box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+">
+                            <i class="fa-solid fa-prescription" style="font-size: 40px;color: #0095DE;background-color: #EFF9FF;border-radius: 10px;padding:8px;"></i>
+                            <h2 style="color: #0095DE;">Prescriptions</h2>
+                            <p>Receive and renew prescriptions digitally after your consultation with our specialists .</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div style="border: 2px solid #0095DE; background-color: white;border-radius: 25px;padding:25px;margin: 15px;height: 250px;box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+">
+                            <i class="fa-solid fa-notes-medical" style="font-size: 40px;color: #0095DE;background-color: #EFF9FF;border-radius: 10px;padding:8px;"></i>
+                            <h2 style="color: #0095DE;">Medical Notes</h2>
+                            <p>Obtain necessary medical notes for work or school with only a few clicks of hassle.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div style="border: 2px solid #0095DE; background-color: white;border-radius: 25px;padding:25px;height: 250px;margin: 15px;box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);">
+                            <i class="fa-solid fa-prescription-bottle-medical" style="font-size: 40px;color: #0095DE;background-color: #EFF9FF;border-radius: 10px;padding:8px;"></i>
+                            <h2 style="color: #0095DE;">Medicine Refills</h2>
+                            <p>Skip the pharmacy queues and save time + energy by ordering medicine refills online.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--HealNet-->
+
+            <div class="container" style="margin: 100px 0px;">
+            <div style="border: 2px solid #0095DE; background-color: white; border-radius: 25px; box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); margin: 25px; padding: 30px;">
+                <h1 style="color: black; text-align: center; font-weight: 700;">
+                <span style="color: #0095DE;">HealNet's Story:</span> Get to know us
+                </h1>
+
+                <div class="row align-items-center" style="margin-top: 30px;">
+                <div class="col-sm-12 col-md-12 col-lg-5 text-center mb-4 mb-lg-0">
+                    <img src="img/experience.png" alt="HealNet Experience" class="img-fluid" style="max-width: 100%; border-radius: 15px;border: 2px solid #00A4F4;">
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <p style="font-size: 16px; line-height: 24px; color: #6d6d6d;text-align: justify;">
+                    HealNet is more than just an online medical service; it’s a movement toward accessible, efficient, and compassionate healthcare for all.
+                    Founded by a team of visionary doctors, healthcare professionals, and technology experts, we are driven by the mission to deliver exceptional medical care directly to you—no matter where you are. 
+                    Our platform is built on the pillars of trust, innovation, and patient-centricity, ensuring that every interaction is personalized and every treatment plan is tailored to your unique needs. 
+                    With a network of licensed practitioners from diverse medical fields, we guarantee comprehensive care that’s just a click away.
+                    </p>
+                    <button style="background-color: #00A4F4;color: white; padding: 15px 36px; font-size: 24px; font-weight: 700;font-family: Arial, Helvetica, sans-serif;border: none;border-radius: 15px;">Learn more about us</button>
+                </div>
+                </div>
+            </div>
+            </div>
+
+
+            <div class="container" style="margin: 100px 0px;">
+                <br>
+                <br>
+                <h1 style="font-size: 40px; text-align: center;font-weight: 700; font-family: Arial, Helvetica, sans-serif;">How <span style="color:#00A4F4 ;"> Our platform</span> works</h1>
+                <br>
+                <p style="font-size: 16px;text-align: center; font-weight: 600;line-height: 24px;color: #B0B0B0;">Navigating your healthcare journey with HealNet is seamless. Just follow these steps mentioned below to proceed with your selected services. You can also see our FAQ section for more guidance:</p>
+                <br>
+
+                <div class="row align-items-center" style="margin-top: 30px;">
+                <!-- Text Steps Section -->
+                <div class="col-sm-12 col-md-12 col-lg-6 mb-4 mb-lg-0">
+                    <ul>
+                    <li style="margin-bottom: 25px;font-size: 33px;">
+                        <h3 style="font-size: 28px; font-weight: 700; color: #0095DE;">Create Your Profile</h3>
+                        <p style="font-size: 16px; line-height: 1.6;">
+                        Sign up and fill in your medical history securely. Setting up your profile this way ensures that you stay up-to-date with your medical processes.
+                        </p>
+                    </li>
+
+                    <li style="margin-bottom: 25px;font-size: 33px;">
+                        <h3 style="font-size: 28px; font-weight: 700; color: #0095DE;">Choose Your Service</h3>
+                        <p style="font-size: 16px; line-height: 1.6;">
+                        Select from our range of services and book a consultation. Booking a consultation with HealNet is simple and straightforward.
+                        </p>
+                    </li>
+
+                    <li style="margin-bottom: 25px;font-size: 33px;">
+                        <h3 style="font-size: 28px; font-weight: 700; color: #0095DE;">Meet Your Doctor</h3>
+                        <p style="font-size: 16px; line-height: 1.6;">
+                        Have a virtual consultation with one of our certified specialists, or go for a physical visit if you opted for an in-person check-up.
+                        </p>
+                    </li>
+                    </ul>
+                 </div>
+
+                <!-- Image Section -->
+                <div class="col-sm-12 col-md-12 col-lg-6 text-center" style="position: relative;">
+                    <div style="background: linear-gradient(to bottom, #FFFFFF, #CEEFFF); width: 275px; height: 250px; border-radius: 15px; overflow: hidden; box-shadow: 0px 4px 10px rgba(0,0,0,0.1);position: absolute;margin-top: 150px;margin-left: 70px;border: 2px solid #00A4F4;">                   
+                    </div>
+
+                    <!--Shape-->
+                    <div style="background: linear-gradient(to right,  #88D8FF, #00A4F4); width: 100px; height: 33px; border-radius: 10px; position: absolute;left: 307px;top: 137px;"></div>
+
+                    <div style="background: linear-gradient(to top, #88D8FF, #00A4F4); width: 33px; height: 100px; border-radius: 10px; position: absolute;top: 100px;left: 340px;"></div>
+
+                    <div style="width: 300px; height: auto; border-radius: 10px; background-color: white;border: 1.5px solid #95DDFF;position: absolute;left: 250px;color:#0069AB ;display: flex;justify-content: center;gap: 15px; padding: 15px;padding-bottom: 0px;z-index: +999;top: 300px;">
+                        <i class="fa-solid fa-star"></i>
+                        <p>Best Certified Team of Specialists</p>
+                    </div>
+
+                    <img src="img/doctor.png" alt="Doctor at HealNet" class="img-fluid" style="width: 80%; object-fit: cover;position: relative;">
+
+                </div>
+            </div>
+            </div>
+
+
+            <div class="container" style="margin: 100px 0px;">
+                <br>
+                <br>
+                <h1 style="font-size: 40px; text-align: center;font-weight: 700; font-family: Arial, Helvetica, sans-serif;"><span style="color:#00A4F4 ;"> Patient Testimonials:</span><br>Hear from Those We’ve Cared For</h1>
+                <br>
+                <p style="font-size: 16px;text-align: center; font-weight: 600;line-height: 24px;color: #B0B0B0;">Discover the difference we make through the voices of those we’ve served:</p>
+                <br>
+            </div>
+
+        <div class="container">
+        <div class="row g-5">
+            <!-- Testimonial 1 -->
+            <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="d-flex align-items-start p-3 shadow rounded h-100" style="border: 2px solid #00A4F4;background: linear-gradient(to right, #ffffff, #CEEFFF);">
+                <img src="img/group1.png" alt="Linda A." style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+                <p style="font-size: 16px; line-height: 1.6; margin: 0;">
+                “After my knee surgery, the convenience of online consultations made my recovery smoother than I could have imagined.”<br><strong>- Linda A.</strong>
+                </p>
+            </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="d-flex align-items-start p-3 shadow rounded h-100" style="border: 2px solid #00A4F4;background: linear-gradient(to right, #ffffff, #CEEFFF);">
+                <img src="img/group2.png" alt="Linda A." style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+                <p style="font-size: 16px; line-height: 1.6; margin: 0;">
+                “Managing chronic conditions like diabetes requires a lot of vigilance, but the medicine refill system has simplified my life.”<br><strong> -Henry B.</strong>
+                </p>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="container" style="margin-top: 100px;margin-bottom: 100px;">
+            <div style="display: flex; justify-content: space-evenly;color: #00A4F4; font-weight: 800;text-align: center;margin-bottom: 0px;font-size: 48px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;letter-spacing: 3px;">
+                <h1>10,000+</h1>
+                <h1>2,500+</h1>
+                <h1>98%</h1>
+                <h1>200+</h1>
+            </div>
+            <div style="display: flex; justify-content: space-evenly;color: #00A4F4; font-weight: 500;text-align: center;margin-top: 0px;font-size: 14px;">
+                <p>Successful Consultations</p>
+                <p>Healthcare Professionals</p>
+                <p>Patient Satisfaction Rate</p>
+                <p style="margin-right: 30px;">Top Specialists</p>
+            </div>
+        </div>
+
+        <div class="container">
+        <div class="row g-5">
+            <!-- Testimonial 3 -->
+            <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="d-flex align-items-start p-3 shadow rounded bg-white h-100" style="border: 2px solid #00A4F4;background: linear-gradient(to right, #ffffff, #CEEFFF);">
+                <img src="img/group3.png" alt="Linda A." style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+                <p style="font-size: 16px; line-height: 1.6; margin: 0;">
+                “The prescription refill system is a game-changer for managing my diabetes. It’s really efficient and completely hassle-free.”<br><strong>- Joshua T.</strong>
+                </p>
+            </div>
+            </div>
+
+            <!-- Testimonial 4 -->
+            <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="d-flex align-items-start p-3 shadow rounded bg-white h-100" style="border: 2px solid #00A4F4;background: linear-gradient(to right, #ffffff, #CEEFFF);">
+                <img src="img/group4.png" alt="Linda A." style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-right: 20px;">
+                <p style="font-size: 16px; line-height: 1.6; margin: 0;">
+                “Finding a doctor who really understands all of my health needs has never been easier. This platform has changed my life.”<br><strong>- Samantha K</strong>
+                </p>
+            </div>
+            </div>
+        </div>
+        </div>
+
+            <div class="container" style="margin: 100px 0px;">
+                <br>
+                <br>
+                <h1 style="font-size: 40px; text-align: center;font-weight: 700; font-family: Arial, Helvetica, sans-serif;color:black ;"><span>Masters of Medicine:</span>
+                <br>Meet our team of specialists</h1>
+                <br>
+                <p style="font-size: 16px;text-align: center; font-weight: 600;line-height: 24px;color: #B0B0B0;">Our team of specialists is at the forefront of medical innovation. Each specialist brings a unique blend of expertise, empathy, and experience to ensure that your health is in the best hands:</p>
+                <br>
+            </div>
+
+
+
+            <div class="container" style="margin: 100px 0px;">
+            <div style="border: 2px solid #0095DE; background: linear-gradient(to bottom, #35BDFF, #008CD0); border-radius: 25px; box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); margin: 50px; padding: 30px;">
+                <div class="row align-items-center" style="margin-top: 30px;">
+                <div class="col-sm-12 col-md-12 col-lg-5 text-center mb-4 mb-lg-0">
+                    <img src="img/doctor1.png" alt="HealNet Experience" class="img-fluid" style="max-width: 100%; border-radius: 15px;border: 2px solid white;">
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <h3 style="color: white;"><strong>Dr. Sarah Johnson (Cardiologist)</strong></h3>
+                    <br>
+                    <p style="font-size: 16px; line-height: 24px; color: white;text-align: justify;padding-right: 50px;">
+                    Heart health is Dr. Wong’s passion, and her approach to cardiology integrates cutting-edge technology with compassionate care. She’s a respected voice in the prevention of heart disease and a trusted partner to her patients on their journey to wellness.
+                    </p>
+                    <br>
+                    <button style="background-color: white;color: #008CD0; padding: 15px 36px; font-size: 24px; font-weight: 700;font-family: Arial, Helvetica, sans-serif;border: none;border-radius: 15px;">Book appointment<i class="fa-solid fa-phone" style="padding-left: 15px;"></i></button>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="container" style="margin: 100px 0px;">
+            <div style="border: 2px solid #0095DE; background: linear-gradient(to bottom, #35BDFF, #008CD0); border-radius: 25px; box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); margin: 50px; padding: 30px;">
+                <div class="row align-items-center" style="margin-top: 30px;">
+                <div class="col-sm-12 col-md-12 col-lg-5 text-center mb-4 mb-lg-0">
+                    <img src="img/doctor2.png" alt="HealNet Experience" class="img-fluid" style="max-width: 100%; border-radius: 15px;border: 2px solid white;">
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <h3 style="color: white;"><strong>Dr. Mark Lee (Dermatologist)</strong></h3>
+                    <br>
+                    <p style="font-size: 16px; line-height: 24px; color: white;text-align: justify;padding-right: 50px;">
+                    Dr. Lee is a visionary in dermatology, advancing treatments for skin health with a gentle, holistic approach. His dedication to clinical excellence and patient education has made him a leader in dermatological care. He’s known for his precision and commitment to patient-centered care.
+                    </p>
+                    <br>
+                    <button style="background-color: white;color: #008CD0; padding: 15px 36px; font-size: 24px; font-weight: 700;font-family: Arial, Helvetica, sans-serif;border: none;border-radius: 15px;">Book appointment<i class="fa-solid fa-phone" style="padding-left: 15px;"></i></button>
+                </div>
+                </div>
+            </div>
+            </div>
+
+
+            <div class="container my-5 py-4">
+                <h1 class="text-center fw-bold" style="font-size: 40px; font-family: Arial, Helvetica, sans-serif;">
+                    Reach our <span style="color: #00A4F4;">Help Desk</span> for support
+                </h1>
+
+                <p class="text-center fw-semibold" style="font-size: 16px; color: #B0B0B0; line-height: 24px;">
+                    Questions? Need assistance? Our dedicated support team is here to help you every step of the way:
+                </p>
+
+                <div class="row g-4 mt-4 px-3">
+                    <!-- First Name -->
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="d-flex align-items-center p-3 border rounded-3 bg-white" style="border: 2px solid #00A4F4;">
+                            <i class="fa-solid fa-user text-primary me-3 fs-5"></i>
+                            <p class="mb-0">Enter Your First Name</p>
+                        </div>
+                    </div>
+
+                    <!-- Email Address -->
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="d-flex align-items-center p-3 border rounded-3 bg-white" style="border: 2px solid #00A4F4;">
+                            <i class="fa-solid fa-envelope text-primary me-3 fs-5"></i>
+                            <p class="mb-0">Enter Your Email Address</p>
+                        </div>
+                    </div>
+
+                    <!-- Contact Us (with background) -->
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="d-flex justify-content-left align-items-center p-3 border rounded-3 text-white" style="background-color: #00A4F4; border: 2px solid #00A4F4;">
+                            <p class="mb-0" style="padding-left: 100px;">Contact Us</p>
+                            <i class="fa-solid fa-circle-arrow-right fs-5" style="padding-left: 15px;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+ 
+
+        <footer style="background-color: #F2FAFF; color: #6d6d6d; padding: 50px; text-align: left;font-size: 15px;line-height: 40px;">
+        <div class="container">
+        <div class="row">
+            <!-- Logo & Description -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <img src="img/logo.png" alt="logo" style="max-width: 150px;">
+                <p style="margin-top: 25px;line-height: 25px;text-align: justify;">Experience personalized medical care from the comfort of your home.</p>
+            </div>
+
+            <!-- Support Links -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <h5 style="color: black;">Support</h5>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="#" style="color: #6d6d6d; text-decoration: none;">Getting Started</a></li>
+                    <li><a href="#" style="color: #6d6d6d; text-decoration: none;">FAQs</a></li>
+                    <li><a href="#" style="color: #6d6d6d; text-decoration: none;">Help Articles</a></li>
+                    <li><a href="#" style="color: #6d6d6d; text-decoration: none;">Report an Issue</a></li>
+                    <li><a href="#" style="color: #6d6d6d; text-decoration: none;">Contact Help Desk</a></li>
+                </ul>
+            </div>
+
+            <!-- Services Info -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <h5 style="color: black;">Services</h5>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="#" style="color: #6d6d6d; text-decoration: none;">Booking appointment</a></li>
+                    <li><a href="#" style="color: #6d6d6d; text-decoration: none;">Online consultations</a></li>
+                    <li><a href="#" style="color: #6d6d6d; text-decoration: none;">Prescriptions</a></li>
+                    <li><a href="#" style="color: #6d6d6d; text-decoration: none;">Medicine Refills</a></li>
+                    <li><a href="#" style="color: #6d6d6d; text-decoration: none;">Medical Notes</a></li>
+                </ul>
+            </div>
+
+            <!-- Legal Info -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <h5 style="color: black;">Legal</h5>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="#" style="color: #6d6d6d; text-decoration: none;">Terms and Conditions</a></li>
+                    <li><a href="#" style="color: #6d6d6d; text-decoration: none;">Privacy Policy</a></li>
+                    <li><a href="#" style="color:#6d6d6d; text-decoration: none;">Cookie Notice</a></li>
+                    <li><a href="#" style="color: #6d6d6d; text-decoration: none;">Cookie Preferences</a></li>
+                    <li><a href="#" style="color:#6d6d6d; text-decoration: none;">Trust Center</a></li>
+                </ul>
+            </div>
+
+            <footer style="background-color: white; padding: 5px; color: black; text-align: center;padding-bottom: 0px;">
+            <p>&copy; 2025 MD. Mostafa Raihan. All Rights Reserved.</p>
+            </footer>
+
+            </div>
+            </div>
+            </footer>
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+</body>
+</html>
